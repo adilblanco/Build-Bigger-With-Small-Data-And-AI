@@ -15,3 +15,12 @@ docker exec -it ollama ollama pull llama3.2
 # List available models
 docker exec -it ollama ollama list
 ```
+
+>>> Do ducks dive ?  
+Yes, ducks can dive. 
+
+>>> How fast do ducks fly ?  
+Ducks can reach speeds of up to 100 mph in flight.
+
+>>> How high can ducks fly ?  
+Ducks can fly at altitudes ranging from 200 to 4,000 feet, with some species capable of reaching heights of up to 21,000 feet.

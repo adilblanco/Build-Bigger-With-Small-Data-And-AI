@@ -4,6 +4,7 @@ Conference : https://www.youtube.com/watch?v=P-55pV6ss3k&t=876s
 Ollama : https://github.com/ollama/ollama       
 Python : https://github.com/ollama/ollama-python        
 Docker : https://hub.docker.com/r/ollama/ollama     
+Figures : https://www.youtube.com/watch?v=tcqEUSNCn8I
 
 ```bash
 # Start the Docker container
@@ -14,6 +15,9 @@ docker exec -it ollama ollama pull llama3.2
 
 # List available models
 docker exec -it ollama ollama list
+
+# Delete LLaMA model
+docker exec -it ollama ollama rm gemma2:2b 
 ```
 
 >>> Do ducks dive ?  

@@ -20,7 +20,7 @@ docker exec -it ollama ollama list
 docker exec -it ollama ollama rm gemma2:2b 
 ```
 
-## RAG
+## 1. RAG
 <p align="center">
     <img src="figures/rag.png" alt="drawing" width="600" height="300"/>
 </p>
@@ -34,7 +34,7 @@ Ducks can reach speeds of up to 100 mph in flight.
 > How high can ducks fly ?  
 Ducks can fly at altitudes ranging from 200 to 4,000 feet, with some species capable of reaching heights of up to 21,000 feet.
 
-## Tool calling
+## 2. Tool calling
 <p align="center">
     <img src="figures/tool-calling.png" alt="drawing" width="600" height="300"/>
 </p>
@@ -45,7 +45,7 @@ The color of Marty McFly is red.
 > How many ducks are yellow ?  
 There are 3 ducks that are yellow.
 
-## References
+## 3. References
 <p align="center">
     <img src="figures/references.png" alt="drawing" width="600" height="300"/>
 </p>

@@ -1,9 +1,9 @@
 import duckdb
 
-# Créer une connexion à la base de données DuckDB
+# Create a DuckDB database connection
 conn = duckdb.connect('ducks.duckdb')
 
-# Créer la table 'ducks'
+# Create the table'ducks'
 conn.execute('''
 CREATE TABLE ducks (
     id VARCHAR,
@@ -14,7 +14,7 @@ CREATE TABLE ducks (
 )
 ''')
 
-# Insérer les données dans la table 'ducks'
+# Insert data into the table 'ducks'
 data = [
     ('kA0KgL', 'red', 'Marty', 'McFly', 'male'),
     ('dx3ngL', 'teal', 'Duckota', 'Fanning', 'female'),
@@ -28,11 +28,11 @@ data = [
     ('YiSGQl', 'teal', 'Wonder', 'Duck', 'female')
 ]
 
-# Insérer les données dans la table
+# Insert data into the table
 for row in data:
     conn.execute('''
     INSERT INTO ducks (id, color, firstname, lastname, gender) VALUES (?, ?, ?, ?, ?)
     ''', row)
 
-# Fermer la connexion
+# Close the connection
 conn.close()

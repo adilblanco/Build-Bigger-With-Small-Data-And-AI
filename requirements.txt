@@ -1,6 +1,8 @@
-ollama==0.4.7
-duckdb==0.10.3
-llama-index==0.12.25
-llama-index-llms-ollama==0.5.3
-llama-index-embeddings-ollama==0.6.0
-llama-index-vector-stores-duckdb==0.3.1
+ollama
+langchain
+llama-index
+langchain-ollama
+llama-index-llms-ollama
+llama-index-embeddings-ollama
+llama-index-vector-stores-duckdb
+# duckdb==0.10.3

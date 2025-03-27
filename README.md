@@ -20,11 +20,19 @@ docker exec -it ollama ollama list
 docker exec -it ollama ollama rm gemma2:2b 
 ```
 
->>> Do ducks dive ?  
+**rag.py**
+> Do ducks dive ?  
 Yes, ducks can dive. 
 
->>> How fast do ducks fly ?  
+> How fast do ducks fly ?  
 Ducks can reach speeds of up to 100 mph in flight.
 
->>> How high can ducks fly ?  
+> How high can ducks fly ?  
 Ducks can fly at altitudes ranging from 200 to 4,000 feet, with some species capable of reaching heights of up to 21,000 feet.
+
+**tools.py**
+> What color is Marty McFly ?    
+The color of Marty McFly is red.  
+
+> How many ducks are yellow ?  
+There are 3 ducks that are yellow.

@@ -17,7 +17,7 @@ def query(query: str) -> str:
     """
     return str(con.execute(query=query).fetchone()[0])
 
-# Not working, need more resources in my computer
+# Not working, need more resources in my computer, model require more system memory
 llm = ChatOllama(model="qwen2.5-coder").bind_tools([query])
 
 try:
